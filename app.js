@@ -4,7 +4,7 @@ function getSum() {
 
   console.log("Summing: " + a + " and " + b);
 
-  $.get("http://localhost:8080/api/sum/?a=" + a + "&b=" + b, function( data ) {
+  $.get("http://roza-gal.devops.srwx.net:8080/api/sum/?a=" + a + "&b=" + b, function( data ) {
     $("body")
       .append(" Status: " + data.Status)
 	  .append(" Result: " + data.Result + "<br>")
