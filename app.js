@@ -13,8 +13,8 @@ function getSum() {
 }
 
 function getDiff() {
-  var a = $("#a").val()
-  var b = $("#b").val()
+  var a = $("#c").val()
+  var b = $("#d").val()
 
   console.log("Difference between: " + a + " and " + b);
 
